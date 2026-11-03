@@ -17,7 +17,7 @@ Clean, open reference versions of the kinds of systems I've designed in producti
 | Project | What it shows |
 |---|---|
 | [AI incident copilot](https://github.com/harin-singh/aws-incident-copilot) ✅ | Bedrock + Strands agent that investigates EKS/ECS incidents through MCP tools, proposes fixes with human approval, and deploys to AgentCore with Terraform |
-| Network troubleshooting MCP server *(in progress)* | Lets an AI assistant explain why two networks can't talk, using Transit Gateway routes, security groups, and Reachability Analyzer |
+| [Network troubleshooting MCP server](https://github.com/harin-singh/aws-network-mcp) ✅ | Lets an AI assistant explain hop by hop why two networks can't talk: route tables, Transit Gateway routes, security groups, NACLs, and Reachability Analyzer |
 | Hybrid network landing zone *(planned)* | Terraform hub-and-spoke with Transit Gateway, inspection VPC, hybrid DNS, and a BGP VPN to a simulated on-prem site |
 | EKS GitOps platform *(planned)* | EKS, Argo CD, Karpenter, policy-as-code, and SLO dashboards |
 | DevSecOps pipeline reference *(planned)* | Keyless CI/CD to AWS with IaC, container, and secret scanning mapped to SOC 2 and PCI controls |
