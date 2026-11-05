@@ -1,35 +1,36 @@
-# Hi, I'm Harinder 👋
+# Harinder Singh
 
-**Cloud infrastructure & site reliability leader** based in Denver, Colorado.
-13+ years building and operating regulated, multi-account AWS environments, now applying AI agents to cloud operations.
+Cloud infrastructure and SRE leader in Denver, Colorado.
+I have spent 13+ years building and operating multi-account AWS environments under SOC 2 and PCI, and I am now applying AI agents to day-to-day cloud operations.
 
-I work where **networking, security, and platform engineering** meet:
+I work at the intersection of networking, security, and platform engineering:
 
-- 🌐 **Hybrid & multi-cloud networking**: Transit Gateway, Direct Connect, BGP, Route 53, zero-trust with Zscaler
-- 🔐 **DevSecOps & compliance**: security architecture across 40+ AWS accounts, SOC 2 and PCI DSS audits, identity federation with Okta and Entra ID
-- ☸️ **Platform engineering**: EKS, Terraform, GitOps with Argo CD, observability with OpenTelemetry, SLOs/SLIs
-- 🤖 **AI for operations**: Amazon Bedrock agents, MCP, AgentCore, human-in-the-loop incident and security automation
+- Hybrid networking: Transit Gateway, Direct Connect, BGP, Route 53 Resolver, and zero-trust with Zscaler
+- Security and compliance: identity federation (Okta, Entra ID) and security architecture across 40+ AWS accounts
+- Platform engineering: EKS, Terraform, GitOps with Argo CD, OpenTelemetry, SLOs and SLIs
+- AI for operations: Amazon Bedrock, Strands Agents, MCP, and AgentCore, with human approval before any change runs
 
-## 🚧 What I'm building here
+## Projects
 
-Clean, open reference versions of the kinds of systems I've designed in production:
+Clean-room reference implementations of systems I have designed in production. Nothing here is employer code.
 
-| Project | What it shows |
-|---|---|
-| [AI incident copilot](https://github.com/harin-singh/aws-incident-copilot) ✅ | Bedrock + Strands agent that investigates EKS/ECS incidents through MCP tools, proposes fixes with human approval, and deploys to AgentCore with Terraform |
-| [Network troubleshooting MCP server](https://github.com/harin-singh/aws-network-mcp) ✅ | Lets an AI assistant explain hop by hop why two networks can't talk: route tables, Transit Gateway routes, security groups, NACLs, and Reachability Analyzer |
-| [Hybrid network landing zone](https://github.com/harin-singh/aws-hybrid-network-landing-zone) ✅ | Terraform hub-and-spoke with Transit Gateway, inspection VPC, hybrid DNS, and a BGP VPN to a simulated on-prem site |
-| EKS GitOps platform *(planned)* | EKS, Argo CD, Karpenter, policy-as-code, and SLO dashboards |
-| DevSecOps pipeline reference *(planned)* | Keyless CI/CD to AWS with IaC, container, and secret scanning mapped to SOC 2 and PCI controls |
+| Project | Status | What it does |
+|---|---|---|
+| [aws-incident-copilot](https://github.com/harin-singh/aws-incident-copilot) | Public | Bedrock + Strands agent that investigates EKS and ECS incidents through MCP tools, proposes fixes, and waits for human approval. Deploys to AgentCore with Terraform. |
+| [aws-network-mcp](https://github.com/harin-singh/aws-network-mcp) | Public | MCP server that walks a path hop by hop and tells an assistant why A cannot reach B: route tables, Transit Gateway routes, security groups, NACLs, VPN/BGP, DNS. |
+| [aws-hybrid-network-landing-zone](https://github.com/harin-singh/aws-hybrid-network-landing-zone) | Public | Terraform hub-and-spoke with segmented Transit Gateway route tables, Network Firewall inspection, hybrid DNS, and a BGP VPN to a simulated on-prem site. |
+| [eks-gitops-platform](https://github.com/harin-singh/eks-gitops-platform) | Private (PR open) | EKS with Argo CD app-of-apps, Karpenter, Kyverno, Argo Rollouts canaries, and 99.9% SLO burn-rate alerts. History starts in August 2024. |
 
-## 🏅 Certifications
+TODO: DevSecOps pipeline reference (keyless CI/CD to AWS with IaC, container, and secret scanning mapped to SOC 2 and PCI controls).
 
-AWS Solutions Architect – Professional · AWS DevOps Engineer – Professional · AWS Security – Specialty · AWS Advanced Networking – Specialty · Certified Kubernetes Administrator (CKA) · HashiCorp Terraform Associate
+## Certifications
 
-## 🧰 Toolbox
+AWS Solutions Architect – Professional · AWS DevOps Engineer – Professional · AWS Security – Specialty · AWS Advanced Networking – Specialty · CKA · HashiCorp Terraform Associate
 
-`AWS` `Azure` `Terraform` `Kubernetes` `EKS` `Helm` `Argo CD` `Ansible` `Python` `Bash` `Amazon Bedrock` `MCP` `Strands` `LangChain` `CrewAI` `OpenTelemetry` `Datadog` `CloudWatch` `GitHub Actions` `GitLab CI` `Jenkins`
+## Tools I use often
 
-## 📫 Contact
+AWS, Terraform, Kubernetes, EKS, Helm, Argo CD, Python, Bash, Amazon Bedrock, MCP, Strands Agents, OpenTelemetry, CloudWatch, Datadog, GitHub Actions
+
+## Contact
 
 harinder@jabal.us
