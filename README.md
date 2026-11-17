@@ -1,6 +1,6 @@
 # Harinder Singh
 
-Cloud infrastructure and SRE leader in Denver, Colorado.
+Cloud infrastructure, Platform Engineering & SRE leader in Denver, Colorado.
 
 I have spent 13+ years building and operating multi-account AWS environments under SOC 2 and PCI, and I am now applying AI agents to day-to-day cloud operations.
 
