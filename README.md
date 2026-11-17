@@ -1,12 +1,14 @@
 # Harinder Singh
 
 Cloud infrastructure and SRE leader in Denver, Colorado.
+
 I have spent 13+ years building and operating multi-account AWS environments under SOC 2 and PCI, and I am now applying AI agents to day-to-day cloud operations.
 
 I work at the intersection of networking, security, and platform engineering:
 
 - Hybrid networking: Transit Gateway, Direct Connect, BGP, Route 53 Resolver, and zero-trust with Zscaler
-- Security and compliance: identity federation (Okta, Entra ID) and security architecture across 40+ AWS accounts
+- Cloud security and governance: AWS Organizations, Control Tower, SCPs, GuardDuty, Security Hub, and Wiz across 40+ accounts; automated policy remediation; six SOC 2 and PCI audits; Okta and Entra ID federation for 400+ users
+- Kubernetes security: EKS hardening with RBAC and network policies, Terraform modules that cut configuration drift, and Snyk scanning with container image hardening in CI/CD
 - Platform engineering: EKS, Terraform, GitOps with Argo CD, OpenTelemetry, SLOs and SLIs
 - AI for operations: Amazon Bedrock, Strands Agents, MCP, and AgentCore, with human approval before any change runs
 
