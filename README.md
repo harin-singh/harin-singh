@@ -31,9 +31,9 @@ AWS Solutions Architect – Professional · AWS DevOps Engineer – Professional
 
 AWS Certified Generative AI Developer Professional (In Progress)
 
-## Tools I use often
+## Tools & services I use often
 
-AWS, Azure, Terraform, Kubernetes, EKS, Helm, Argo CD, Python, Bash, Amazon Bedrock, MCP, Strands Agents, OpenTelemetry, CloudWatch, Datadog, GitHub Actions
+AWS, Azure, Terraform, Kubernetes, EKS, Helm, Argo CD, Python, Bash, Amazon Bedrock, MCP, Strands Agents, OpenTelemetry, CloudWatch, Datadog, GitHub Actions, Transit Gateway, Direct Connect, Zscaler, Control Tower, Security Hub, GuardDuty, Wiz, Okta, Entra ID, Kyverno, Snyk, AgentCore.
 
 ## Contact
 
