@@ -14,7 +14,7 @@ I work at the intersection of networking, security, and platform engineering:
 
 ## Projects
 
-Example of systems I have designed in production.
+Example of systems I have designed and built in production.
 
 | Project | Status | What it does |
 |---|---|---|
