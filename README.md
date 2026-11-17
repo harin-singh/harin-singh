@@ -10,11 +10,11 @@ I work at the intersection of networking, security, and platform engineering:
 - **Cloud security and governance**: I build multi-account guardrails, identity federation, and automated remediation, and I prepare environments for audits. I've covered 40+ accounts and six SOC 2 and PCI audits.
 - **Kubernetes security**: I harden clusters with least-privilege access, network isolation, policy enforcement, and image scanning before anything reaches production.
 - **Platform engineering**: I build self-service infrastructure with reusable Terraform modules and GitOps delivery, then run it against SLOs with on-call, postmortems, and disaster recovery testing.
-- **AI for operations**: I build agents that investigate incidents and security findings and propose fixes. A person approves every change before it runs.
+- **AI for operations**: I build agents that investigate incidents and security findings and propose fixes; with a HITL.
 
 ## Projects
 
-Clean-room reference implementations of systems I have designed in production. Nothing here is employer code.
+Example of systems I have designed in production.
 
 | Project | Status | What it does |
 |---|---|---|
@@ -29,9 +29,11 @@ TODO: DevSecOps pipeline reference (keyless CI/CD to AWS with IaC, container, an
 
 AWS Solutions Architect – Professional · AWS DevOps Engineer – Professional · AWS Security – Specialty · AWS Advanced Networking – Specialty · CKA · HashiCorp Terraform Associate
 
+AWS Certified Generative AI Developer Professional (In Progress)
+
 ## Tools I use often
 
-AWS, Terraform, Kubernetes, EKS, Helm, Argo CD, Python, Bash, Amazon Bedrock, MCP, Strands Agents, OpenTelemetry, CloudWatch, Datadog, GitHub Actions
+AWS, Azure, Terraform, Kubernetes, EKS, Helm, Argo CD, Python, Bash, Amazon Bedrock, MCP, Strands Agents, OpenTelemetry, CloudWatch, Datadog, GitHub Actions
 
 ## Contact
 
