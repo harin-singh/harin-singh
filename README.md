@@ -6,11 +6,11 @@ I have spent 13+ years building and operating multi-account AWS environments und
 
 I work at the intersection of networking, security, and platform engineering:
 
-- **Hybrid networking**: Transit Gateway, Direct Connect, BGP, Route 53 Resolver, and zero-trust with Zscaler
-- **Cloud security and governance**: AWS Organizations, Control Tower, SCPs, GuardDuty, Security Hub, and Wiz across 40+ accounts; automated policy remediation; six SOC 2 and PCI audits; Okta and Entra ID federation for 400+ users
-- **Kubernetes security**: EKS hardening with RBAC and network policies, Terraform modules that cut configuration drift, and Snyk scanning with container image hardening in CI/CD
-- **Platform engineering**: EKS, Terraform, GitOps with Argo CD, OpenTelemetry, SLOs and SLIs
-- **AI for operations**: Amazon Bedrock, Strands Agents, MCP, and AgentCore, with human approval before any change runs
+- **Hybrid networking**: I design and troubleshoot connectivity between data centers and AWS, including routing, segmentation, hybrid DNS, and zero-trust access. My largest design connected 3 on-premises sites to 30+ VPCs
+- **Cloud security and governance**: I build multi-account guardrails, identity federation, and automated remediation, and I prepare environments for audits. I've covered 40+ accounts and six SOC 2 and PCI audits.
+- **Kubernetes security**: I harden clusters with least-privilege access, network isolation, policy enforcement, and image scanning before anything reaches production.
+- **Platform engineering**: I build self-service infrastructure with reusable Terraform modules and GitOps delivery, then run it against SLOs with on-call, postmortems, and disaster recovery testing.
+- **AI for operations**: I build agents that investigate incidents and security findings and propose fixes. A person approves every change before it runs.
 
 ## Projects
 
